@@ -1,17 +1,111 @@
-# React + Vite
+# Upasana Tailor — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, Vite, and Tailwind CSS v4. Showcases my skills, experience, certifications, and featured projects as a Full-Stack Software Engineer and Certified Trainer.
 
-Currently, two official plugins are available:
+🌐 **Live site:** [upasana-portfolio.vercel.app](https://upasana-portfolio.vercel.app) *(update this after deploying)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **About** — Introduction, contact info, and social links
+- **Technical Expertise** — AI/ML, DevOps & Cloud, and Full-Stack skills
+- **Language Proficiency** — German (B2), English (C1), Hindi (Native)
+- **Certifications & Training** — Certified Full-Stack Developer Trainer & DevOps Trainer
+- **Work History** — Professional experience timeline
+- **Featured Projects** — Highlighted technical projects with links
+- **Education** — Academic background
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# portfolio
+## Tech Stack
+
+| Technology | Version |
+|---|---|
+| React | 19 |
+| Vite | 8 |
+| Tailwind CSS | 4 |
+| Lucide React | 0.460 |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output is generated in the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── assets/
+│   └── profile.jpg        # Profile photo
+├── App.jsx                # Main component (all sections)
+├── App.css                # Component styles
+├── index.css              # Global styles + Tailwind import
+└── main.jsx               # React entry point
+```
+
+---
+
+## Deploying to Vercel
+
+1. Push this repo to GitHub
+2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+3. Click **Add New Project** → import this repo
+4. Set **Root Directory** to `portfolio` if prompted
+5. Click **Deploy**
+
+Vercel auto-detects Vite and configures everything. You get a free `*.vercel.app` URL instantly.
+
+---
+
+## Customisation
+
+To update with your own details, edit the data arrays at the top of `src/App.jsx`:
+
+- `skills` — your technical skills by category
+- `experience` — work history entries
+- `projects` — featured project cards
+
+To replace the profile photo, add your image to `src/assets/` and update the import in `App.jsx`.
+
+---
+
+## License
+
+MIT — feel free to use this as a template for your own portfolio.
