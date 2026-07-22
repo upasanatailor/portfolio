@@ -1,8 +1,8 @@
 # Upasana Tailor — Developer Portfolio
 
-A personal portfolio website built with React, Vite, and Tailwind CSS v4. Showcases my skills, experience, certifications, and featured projects as a Full-Stack Software Engineer and Certified Trainer.
+A personal portfolio website built with React, Vite, and Tailwind CSS v4. Showcases my skills, experience, certifications, and featured projects as a Aspiring SOC Analyst | Software Engineer (Cloud & AI Infrastructure) | Google Cybersecurity Certified.
 
-🌐 **Live site:** [upasana-portfolio.vercel.app](https://upasana-portfolio.vercel.app) *(update this after deploying)*
+🌐 **Live site:** [upasana-portfolio.vercel.app](https://portfolioupasana.vercel.app/)
 
 ---
 
